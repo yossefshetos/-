@@ -1,0 +1,248 @@
+
+body {
+    background: black;
+    box-shadow: -4px -1px 20px 20px crimson;
+
+}
+
+
+#heading {
+    color:#fff;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform: translate(-5%,-40%);
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px -3px 20px 20px crimson;
+}
+
+.count-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid crimson;
+    border-radius: 50%;
+    padding: 100px 125px;
+    box-shadow: inset 2px -3px 20px 20px crimson;
+    transition: box-shadow 2s;
+}
+
+.count-circle:hover {
+    box-shadow: inset 0px -20px 20px 20px crimson;
+}
+
+.conut-desc1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#countdown-sec {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: crimson;
+}
+
+#countdown-min {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: crimson;
+}
+
+#countdown-hour {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: crimson;
+}
+
+#countdown-days {
+    font-size: 18px;
+    color: crimson;
+}
+
+
+.conut-desc2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc; 
+}
+
+
+@media(max-width: 580px) {
+    #heading {
+        position: absolute;
+        top: 16%;
+        left: 23%;
+        transform: translate(-5%,-40%);
+    }
+    
+    .count-circle {
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        padding: 59px 63px;
+        box-shadow: inset 2px -3px 20px 20px crimson;
+        
+    }
+    
+    .conut-desc1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        width: 155px;
+    }
+    
+    #countdown-sec {
+        margin-bottom: 8px;
+        font-size: 18px;
+        width: 155px;
+    }
+    
+    #countdown-min {
+        margin-bottom: 8px;
+        font-size: 18px;
+        width: 155px;
+    }
+    
+    #countdown-hour {
+        margin-bottom: 8px;
+        font-size: 18px;
+        width: 155px;
+    }
+    
+    #countdown-days {
+        font-size: 18px;
+        width: 155px;
+    }
+    
+    
+    .conut-desc2 {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+
+@media (min-width: 581px) and (max-width: 1200px) {
+    #heading {
+        position: absolute;
+        top: 16%;
+        left: 31%;
+        font-size: 50px;
+        transform: translate(-5%,-40%);
+    }
+    
+    .count-circle {
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        padding: 151px 153px;
+        box-shadow: inset 2px -3px 20px 20px crimson;
+        
+    }
+    
+    .conut-desc1 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        width: 220px;    
+    }
+    
+    #countdown-sec {
+        margin-bottom: 8px;
+        font-size: 28px;
+        width: 220px;
+    }
+    
+    #countdown-min {
+        margin-bottom: 8px;
+        font-size: 28px;
+        width: 220px;
+    }
+    
+    #countdown-hour {
+        margin-bottom: 8px;
+        font-size: 28px;
+        width: 220px;
+    }
+    
+    #countdown-days {
+        font-size: 28px;
+        width: 220px;
+    }
+    
+    
+    .conut-desc2 {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1200px) {
+    #heading {
+        position: absolute;
+        top: 16%;
+        left: 31%;
+        font-size: 50px;
+        transform: translate(-5%,-40%);
+    }
+    
+    .count-circle {
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        padding: 151px 153px;
+        box-shadow: inset 2px -3px 20px 20px crimson;
+        
+    }
+    
+    .conut-desc1 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        width: 220px;    
+    }
+    
+    #countdown-sec {
+        margin-bottom: 8px;
+        font-size: 28px;
+        width: 220px;
+    }
+    
+    #countdown-min {
+        margin-bottom: 8px;
+        font-size: 28px;
+        width: 220px;
+    }
+    
+    #countdown-hour {
+        margin-bottom: 8px;
+        font-size: 28px;
+        width: 220px;
+    }
+    
+    #countdown-days {
+        font-size: 28px;
+        width: 220px;
+    }
+    
+    
+    .conut-desc2 {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
